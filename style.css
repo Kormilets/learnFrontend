@@ -1,0 +1,206 @@
+html, body, h1, p{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+
+}
+
+.header__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__block--title{
+    flex-direction: column;
+}
+
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__block--navigate{
+    padding: 64px 80px 32px;    
+}
+
+.header__block--title{
+    padding: 96px 80px;
+}
+
+.nav, .nav__item, .nav__link{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__link{
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #9ca3af;
+}
+
+.header{
+    background-color: #111827;
+}
+
+.header__link{
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.nav__link.active{
+    color: #fff;    
+}
+
+.nav__item:not(:first-child)::before{
+    content: '->';
+    padding-right :8px;
+    color: #9ca3af;
+}
+
+.nav__link{
+    margin: 16px;
+}
+
+.nav__item:not(:first-child)::before{
+    padding-left: 8px;
+}
+
+.header h1{
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 72px;
+    letter-spacing: -2.5%;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.header__block--title{
+    color: #9ca3af;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main__block h2{
+    font-size: 30px;
+    line-height: 40px;
+    color:#111827;
+}  
+.main__block{
+    font-size: 18px;
+    line-height: 28px;
+    color: #4B5563;
+}
+
+
+
+
+
+
+
+.main__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__section{
+    flex-direction: column;
+}
+
+.main__section{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.main__section{
+    font-size: 24px;
+    line-height: 32px;
+    padding: 64px 80px 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main__block h2{
+    font-size: 30px;
+    line-height: 40px;
+    color:#111827;
+}  
+.main__block{
+    font-size: 18px;
+    line-height: 28px;
+    color: #4B5563;
+}
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    flex-direction: column;
+}
+
+.footer{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    font-size: 24px;
+    line-height: 32px;
+    padding: 40px 80px 80px 80px;
+}
+
+.footer h3{
+    font-size: 20px;
+    line-height: 28px;
+    color: #111827;
+}  
+
+.footer a{
+    color:#6B7280;
+}
+
+.footer p{
+    color:#6B7280;
+}
